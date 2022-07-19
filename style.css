@@ -1,3 +1,30 @@
-h1{
- color: red;
+*{
+ margin: 0;
+}
+nav{
+height: 5rem;
+padding: 0 2rem;
+background:#562EFF;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+h2{
+ margin-bottom: 0 auto;
+ text-transform: uppercase;
+ font-weight: bold;
+ color: #fff;
+}
+.nav-links{
+ list-style-type: none;
+ text-decoration: none;
+ gap: .5rem;
+ display: flex;
+ 
+}
+.nav-link{
+ /* margin-left: 0.5rem; */
+ text-transform: uppercase;
+ color: #fff;
 }
